@@ -12,6 +12,7 @@ const navItems = [
   { href: "/metricas", label: "Métricas" },
   { href: "/pruebas", label: "Pruebas" },
   { href: "/devops", label: "DevOps" },
+  { href: "/evaluacion", label: "Evaluación" },
 ]
 
 export function Navigation() {
