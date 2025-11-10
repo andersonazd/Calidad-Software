@@ -48,13 +48,13 @@ const criteria: Criterion[] = [
 ]
 
 export default function EvaluacionPage() {
-    const [appName, setAppName] = useState("https://www.vercel.com")
+    const [appName, setAppName] = useState("https://cun.edu.co/")
     const [evaluatorName, setEvaluatorName] = useState("Anderson Atehortua M")
     const [evaluationDate, setEvaluationDate] = useState("2025-11-07")
 
     const [recommendations, setRecommendations] = useState("El aplicativo aunque cumple tiene varias fallas, entre ellas: lento en respuesta al usar moodle que a su vez usa php y al ser script tiene limitaciones de recursos, seguridad: tiene fallas en HTTP Security, Firewall , DNSSEC,HSTS, Security.Txt, entre otros (https://web-check.xyz/check/https%3A%2F%2Fcun.edu.co%2F), entre otros problemas. Recomendaciones: Contratar desarrolladores que implementen nuevas tecnologías y arquitecturas para mejorar la usabilidad, rendimiento y seguridad del aplicativo.(https://github.com/andersonazd) ")
     const [ratings, setRatings] = useState<Record<string, number>>({
-        usabilidad: 3.5,
+        usabilidad: 3,
         funcionalidad: 4,
         rendimiento: 3,
         compatibilidad: 4,
