@@ -9,23 +9,23 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Calidad de Software | ISO/IEC 25010",
   description: "Guía completa sobre calidad de software, estándares de programación, métricas, pruebas y DevOps",
-  generator: "v0.app",
+  generator: "https://github.com/andersonazd",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
+        url: "/favicon (1).co",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon-dark-32x32.png",
+        url: "/favicon (2).co",
         media: "(prefers-color-scheme: dark)",
       },
       {
-        url: "/icon.svg",
+        url: "/favicon.ico",
         type: "image/svg+xml",
       },
     ],
-    apple: "/apple-icon.png",
+    apple: "/favicon.ico",
   },
 }
 
